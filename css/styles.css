@@ -633,6 +633,10 @@ ul {
   background-color: #4d5ae5;
 }
 
+.link-card-portfolio:focus .hidden-text {
+  transform: translateY(0%);
+}
+
 .hidden-text {
   position: absolute;
   top: 0;
