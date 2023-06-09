@@ -483,11 +483,10 @@ ul {
 .customers-list {
   display: flex;
   gap: 24px;
-  margin: 0;
 }
 
 .item-customers {
-  width: calc((100% - 120px) / 5);
+  width: calc((100% - 120px) / 6);
   height: 88px;
 }
 
@@ -633,10 +632,10 @@ ul {
   background-color: #4d5ae5;
 }
 
-.link-card-portfolio:focus .hidden-text {
+/*.link-card-portfolio:focus .hidden-text {
   transform: translateY(0%);
 }
-
+*/
 .hidden-text {
   position: absolute;
   top: 0;
