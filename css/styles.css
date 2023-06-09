@@ -103,6 +103,7 @@ address li {
 
 .list-menu.link {
   position: relative;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .current::after {
@@ -124,7 +125,6 @@ address li {
 .list-menu:hover,
 .list-menu:focus {
   color: var(--color-dark-blue);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-contacts {
@@ -132,12 +132,12 @@ address li {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--color-grey);
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .list-contacts:hover,
 .list-contacts:focus {
   color: var(--color-dark-blue);
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-port:hover,
@@ -455,6 +455,10 @@ ul {
   padding-bottom: 12px;
   padding-left: 24px;
   padding-right: 24px;
+  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .hero-port:hover,
@@ -464,11 +468,6 @@ ul {
   background-color: var(--color-dark-blue);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-
-  transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
-    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .bord {
@@ -544,6 +543,7 @@ ul {
   align-items: center;
   justify-content: center;
   border-radius: 50%;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .one-icon {
@@ -565,8 +565,6 @@ ul {
 .all-icon:hover,
 .all-icon:focus {
   background-color: #404bbf;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .foot-two {
