@@ -487,7 +487,7 @@ ul {
 }
 
 .item-customers {
-  width: calc((100% - 120px) / 6);
+  width: calc((100% - 120px) / 5);
   height: 88px;
 }
 
@@ -627,7 +627,8 @@ ul {
   overflow: hidden;
 }
 
-.container-hidden:hover .hidden-text {
+.container-hidden:hover .hidden-text,
+.container-hidden:focus .hidden-text {
   transform: translateX(0);
   background-color: #4d5ae5;
 }
