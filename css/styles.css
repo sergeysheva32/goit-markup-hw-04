@@ -174,7 +174,7 @@ address li {
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(/images/phone-hero.jpg);
+    url(../images/phone-hero.jpg);
   position: relative;
   background-repeat: no-repeat;
   background-position: center;
